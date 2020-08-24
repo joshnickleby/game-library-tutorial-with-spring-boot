@@ -17,7 +17,7 @@ public class Game {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private UUID id;
 
-  private String title;
+  private String title = "";
 
   public Game(String title) {
     this.title = title;
